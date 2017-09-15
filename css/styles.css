@@ -18,20 +18,27 @@ body {
 	width: 100%;
 	font-size: 1em;
 
+
 }
 
 
 h4,
 h3,
 h2 {
-	font-weight: bold;
+	/*font-weight: bold;*/
 	color: #3f3f3f;
+	font-family: 'Baloo Bhai', cursive;
 
 }
+
 
 h4 {
 	margin-bottom: 2em;
+	color: #344c62;
+	letter-spacing: 1.5px
+
 }
+
 
 img {
 
@@ -40,10 +47,16 @@ img {
 
 
 a {
-	color: #3f3f3f;
+
 	text-decoration: none;
 	font-weight: bold;
+	color: black;
 }
+
+a:hover {
+	color: brown;
+}
+
 
 
 p {
@@ -70,15 +83,31 @@ p {
 
 .main-nav ul {
 	padding: 0;
+	background: #ffdba0;
+	border: #344c62 solid;
+	border-radius: 60%;
 
 }
 
 .main-nav li {
 	padding: 0.5em 1em;
-	font-weight: bold;
 	margin:0 10px;
+	font-family: 'Baloo Bhai', cursive;
+	
+}
+
+.main-nav a {
+	color: #344c62;
+	font-weight: bold;
+	/*display: block;*/
+}
+
+.main-nav a:hover {
+	text-decoration: underline;
 
 }
+
+
 
 
 
@@ -88,8 +117,8 @@ p {
 
 .profile-image {
 
-padding: 50px 50px 20px 50px;
-max-width: 65%;
+padding: 50px 50px 20px 50px; /** top right bottom left **/
+
 }
 
 
@@ -155,7 +184,9 @@ max-width: 65%;
   line-height: 1em;
   padding: 1.5em 0;
   margin-top: 40px;
-  color: #3f3f3f;
+  /*color: #3f3f3f;*/
+  font-family: 'Baloo Bhai', cursive;
+  color: #344c62;
 
 }
 
@@ -174,6 +205,8 @@ max-width: 65%;
 	font-weight: bold;
 	font-size: 1em;
 	padding-right: 1em;
+	color: #344c62;
+
 }
 
 
@@ -223,7 +256,6 @@ max-width: 65%;
 }
 
 .profile-image {
-	width: 38%;
 	float: right;
 	padding: 0;
 	margin-top: 2em;
@@ -257,6 +289,7 @@ max-width: 65%;
   border-top: 1px #e4e4e4 solid;
   display: block;
   letter-spacing: 1px;
+  
  }
 
 
@@ -264,19 +297,28 @@ max-width: 65%;
 	display: block;
 	float: right;
 	padding-right: 3em;
+
 }
 
 
 .footer-nav li {
 	display: inline-block;
 	padding-right: 1em;
+
 }
+
+.footer-nav a {
+	color: #344c62;
+}
+	
+
 
 
 .footer-name {
 	display: inline-block;
 	padding-left: 3em;
 	margin: 16px 0;
+
 
 }
 
